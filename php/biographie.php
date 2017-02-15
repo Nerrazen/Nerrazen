@@ -1,3 +1,14 @@
-			<div id="bio">
-				<p><img src="img/anonyme.jpeg" height="128px">Bonjour, je suis l'auteur des romans présentés si contre. Adens Core est ma première histoire, elle raconte la vie d'un aventurier s'appelant Nerrazen dans un monde fantastique. Real Games est ma deuxième histoire, elle raconte la vie d'un groupe de survivant dans un monde post-apocalyptique. Magus est ma troisième histoire, elle raconte la vie d'une fille aillant obtenue des pouvoir appelé Magus.</p>
-       	    </div>
+<div id="bio">
+	<div class="g1">
+		<img src="img/anonyme.jpeg" height="128px"><p>Ajouter ici une biographie possible de l'auteur comprenant, nom, prénom, age, passion, ce qu'il aime, déteste. Ajouetr descriptifs des histoires, rajouter les projets.</p><br />
+	</div>
+	<div class="questionnaire">
+		<p>Veuillez entrer votre adresse mail pour recevoir toute les actualités des publications !</p>
+    	<form action="index.php" method="post">
+            <p>
+            <input type="mail" name="email" />
+            <input type="submit" value="Valider" />
+            </p>
+        </form>
+	</div>
+</div>

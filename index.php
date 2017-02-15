@@ -4,9 +4,7 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style2.css" />
         <link rel="images" href="img"/>
-        <title>Nerrazen - Acceuil</title>
-        <script type="text/javascript" src="../js/menu_deroulant.js"></script>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <title>Nerrazen - Accueil</title>
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({
             google_ad_client: "ca-pub-8039968599498379",

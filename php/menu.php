@@ -1,6 +1,6 @@
 <ul id="menu">
                 <li>
-                    <a href="http://www.Nerrazen.fr">accueil</a>
+                    <a href="index.php">accueil</a>
                 </li>
                 <li>
                     <a href="#">Histoires</a>
