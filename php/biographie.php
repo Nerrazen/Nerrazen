@@ -1,0 +1,3 @@
+			<div id="bio">
+				<p><img src="img/anonyme.jpeg" height="128px">Bonjour, je suis l'auteur des romans présentés si contre. Adens Core est ma première histoire, elle raconte la vie d'un aventurier s'appelant Nerrazen dans un monde fantastique. Real Games est ma deuxième histoire, elle raconte la vie d'un groupe de survivant dans un monde post-apocalyptique. Magus est ma troisième histoire, elle raconte la vie d'une fille aillant obtenue des pouvoir appelé Magus.</p>
+       	    </div>

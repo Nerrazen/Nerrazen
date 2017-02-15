@@ -1,0 +1,193 @@
+body
+	{
+	background-image: url("img/magicbook.jpg");
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+	margin: auto;
+	}
+header
+	{
+	background-color: rgb(52, 52, 52);
+	display: flex;
+	height: 65px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	}
+#menu, #menu ul    
+	{
+		margin : auto;
+		display: flex;
+		justify-content: center;
+        list-style : none; 
+        line-height : 40px; 
+        text-align : center;
+	}
+	#menu 
+	{
+        font-family : Verdana; 
+        font-size : 20px; 
+	}
+		#menu a 
+		{
+        	display : block; 
+        	padding : 0;        
+        	color : grey; 
+        	text-decoration : none; 
+        	width : 200px; 
+		}
+		#menu li     
+		{ 
+			justify-content: center;
+			border: solid black 1px;
+    		float : left; 
+		}
+			#menu li ul 
+			{ 
+				background-color: rgb(52, 52, 52);
+				margin: 0;
+				padding: 0;
+				flex-direction: column;
+        		position: absolute; 
+        		width: 200px; 
+        		left: -999em; 
+			}
+			#menu li ul ul 
+			{
+        		margin    : -40px 0 0 200px ;      
+			}
+		#menu a:hover 
+		{
+        	color: #ffffff; 
+		}
+		#menu li:hover ul ul, #menu li.sfhover ul ul 
+		{
+        	left: -999em; 	}
+		#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul  
+		{
+        	left: auto; /
+        	min-height: 0; 
+		}
+p, h1, h2, h3, a
+	{
+    color: rgb(150, 150, 150);
+	text-decoration: none;
+	list-style-type: none;
+	font-family: Verdana;
+	}
+h1, h2, h3
+	{
+	display: flex;
+	justify-content: center;
+	}
+h3
+	{
+	padding: 30px;
+	margin: 0px;
+	height: 20px;
+	font-size: 20px;
+	}
+h1
+	{
+	color: rgb(248, 152, 28);
+	font-size: xx-large;
+	font-family: Verdana;
+	}
+#corps
+	{
+	}
+	section
+		{
+		}
+		.suivre
+			{
+				border-top: solid grey 1px; 
+			}
+		.groupe
+			{
+				margin-right: 25px;
+				margin-left: 25px;
+				display: flex;
+				justify-content: space-around;
+				padding: 10px;
+			}
+			#histoires
+				{
+				width: 500px;
+				justify-content: center;
+				display: flex;
+				flex-direction: column;
+				}
+				iframe
+					{
+					padding: 10px;
+					}
+			#bio
+				{
+				padding: 5px;
+				width: 490px;
+				height: 100%;
+				background-color: rgb(52, 52, 52);
+				text-align: justify;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				}
+				#bio div
+					{
+					float: left;
+					}
+		#reseaux
+			{
+			width: 50px;
+			height: 200px;
+			position: fixed;
+				right: 0px;
+				top: 200px;
+			display: flex;
+			flex-direction: column;
+			margin: auto;
+			}
+			.fb, .yt, .wt, .cr
+				{
+				}
+				.miniimg
+					{
+					height: 50px;
+					width: 50px;
+					}
+	#maj
+		{
+		}
+		.title1
+			{
+			border-top: solid grey 1px;
+			border-bottom: solid grey 1px;
+			}
+		.docs
+			{
+			margin-right: 50px;
+			margin-left: 50px;
+			justify-content: space-between;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			}
+			.doc1, .doc2, .doc3, .doc4
+				{
+				background-color: rgb(48, 47, 54);
+				border: solid grey 1px;
+				width: 350px;
+				height: 400px;
+					margin: 20px;
+				}
+footer
+	{
+	border-top: solid grey 1px;
+	margin-right: 50px;
+	margin-left: 50px;
+	}
+h2
+	{
+	color: rgb(248, 152, 28);
+	}
