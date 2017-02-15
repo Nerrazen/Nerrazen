@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style2.css" />
         <link rel="images" href="img"/>
-        <title>Nerrazen - Acceuil</title>
+        <title>Nerrazen - Accueil</title>
         <script type="text/javascript" src="../js/menu_deroulant.js"></script>
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <script>
